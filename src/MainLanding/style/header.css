@@ -1,0 +1,68 @@
+img {
+  width: 100%;
+}
+h1 {
+  font-family: "Bebas Neue", sans-serif;
+  color: rgb(0, 0, 0);
+}
+.header__content {
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: rgb(143, 143, 143);
+}
+.header__content p {
+  margin: 6px 0;
+}
+.header__work button {
+  max-width: 40px;
+  background-color: inherit;
+  border: none;
+  cursor: pointer;
+  margin-right: 16px;
+}
+.header__work button:nth-child(3) {
+  margin-right: 0;
+}
+
+.header__search {
+  display: flex;
+}
+.header__search input {
+  width: 350px;
+  height: 40px;
+  border-radius: 10px 0 0 10px;
+  border: 2px solid rgb(190, 190, 190);
+  padding-left: 30px;
+}
+.header__search input:focus {
+  outline: none;
+}
+.header__search button {
+  position: relative;
+  transform: translateX(-2px);
+  width: 64px;
+  height: 46px;
+  padding-right: 16px;
+  background-color: white;
+  border-radius: 0 10px 10px 0;
+  border: 2px solid rgb(190, 190, 190);
+  cursor: pointer;
+}
+.header__search button img {
+  width: 80%;
+}
+.header__search button::after {
+  content: "";
+  position: absolute;
+  width: 2px;
+  height: 42px;
+  background-color: white;
+  left: -2px;
+  top: 0px;
+}
+.txt_bolt {
+  font-weight: 700;
+  color: rgb(0, 0, 0);
+}
